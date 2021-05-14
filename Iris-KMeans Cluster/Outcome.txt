@@ -1,0 +1,50 @@
+Learning sources :
+------------------
+
+IRIS Dataset explanation and basic terms : https://www.youtube.com/watch?v=FLuqwQgSBDw
+
+K Means clustering algorithm : https://www.youtube.com/watch?v=4b5d3muPQmA
+
+Project :
+----------
+
+IRIS Dataset is like the Hello World of Machine learning to start.
+
+Objective : Classify a flower into one of these 3 flower.
+
+Alogirthm used : K Means Clustering
+
+Things learnt in this project :
+-------------------------------
+
+Data points - Rows/Vector - nDimensional array
+
+Variables - Fields/Column/Feature  
+
+Class label - Independent label/output lable - Using the Data points and variable to predict the class latbel.
+
+1-D Array is vector
+
+Understanding the each Feature (Domain language) is important.
+
+K Means Clustering :
+-> Comes under unsupervised learning.
+-> Identify the number of cluster we want which is K Value or Centroid.(Elbow method - Find wess value which shows minimum change)
+-> Randomnly select K data points.
+-> Measure the distance between data points and the K values,group them into clusters based on the distance(use Eucledian distance),then find the mean.
+-> Change the K value to mean and cluster again until group doesnt change after changing K value with mean,
+
+Tableau to visualize data.
+
+
+Coding :
+--------
+
+1.Exploratory Data analysis :
+Check the shape,counts and whether its imbalanced or balanced.
+Plot graph,observe and find patterns.
+
+Used Tableau to Visualize the data. Results : https://public.tableau.com/profile/karthikeyan4498#!/vizhome/IRIS_EDA/Dashboard1
+
+Apply ML Algorithm
+

@@ -1,0 +1,41 @@
+Learning sources :
+------------------
+https://courses.analyticsvidhya.com/courses/take/loan-prediction-practice-problem-using-python/texts/6119370-hypothesis-generation
+
+Project :
+----------
+
+Objective : Predict the loan can be given to the customers.
+
+Alogirthm used : Logistic Regression
+
+Things learnt in this project :
+-------------------------------
+
+--> Hypothesis generation - Brainstrom and identify what can impact the target variable prediction before looking into the data.
+
+In our case, Below could impact the loan prediction :
+
+1. His/Her Credit score.
+2. Existing EMI and Loans.
+3. Salary
+4. Job Security
+
+--> Univariate Analysis - Analyse each variable in dataset.
+--> Catagorical Feature - will be in catagory - Gender,Account type
+--> Ordinal Feature - will have some orders in catagory - Property_area,Education
+--> Numerical Feature - will be in number - Salary,Age
+--> Bivariate Analysis -- Analyse each variable respect to target variable
+--> use heatmap and plot using correlation
+--> fill na with mean,mode,median
+--> Evaluation metrices
+
+Logistic Regression
+1. update target variable to numeric
+2. drop target variable and save in new df. save target data in new variable
+3. Create dummies to replace all catagorical to number
+
+split test and train
+predict the model for test value
+and compare the result with actual value
+
